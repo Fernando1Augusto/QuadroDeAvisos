@@ -1,0 +1,23 @@
+.rodape {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #000046;
+    color: white;
+    border-top: 2px solid white;
+  }
+  
+  .rodape-endereco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rodape-endereco span {
+    margin: 0 10px;
+  }
