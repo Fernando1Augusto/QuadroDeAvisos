@@ -26,14 +26,13 @@ function index() {
                         <p>Data: {dataAtual} </p>
                     </div> */}
                     <div className="quadro-de-avisos">
-                        <div className="box">
-                            <div className="avisos">
-                                <Avisos />
-                                <Avisos />
-                                <Avisos />
-                                <Avisos />
-                                <Avisos />
-                            </div>
+                        <div className="avisos">
+
+                            <Avisos />
+                            <Avisos />
+                            <Avisos />
+                            <Avisos />
+                            <Avisos />
                         </div>
                     </div>
                 </div>
