@@ -1,11 +1,10 @@
 header {
-    box-shadow: 0 2px 7px;
-    background-color: #000046;
     background-size: cover;
     background-repeat: no-repeat;
     height: 120px;
     display: flex;
     position: relative;
+    background-color: transparent;
   }
   
   .cabecalho {

@@ -13,30 +13,33 @@ function index() {
     const dataAtual = dia + '/' + mes + '/' + ano;
 
     return (
-        <>
-            <Cabecalho/>
-            <div className="corpo">
-                <div className="titulo">
-                    <h1>Ciarama Fazendas News</h1>
+        <div className="corpo">
+            <Cabecalho />
+            <div>
+                <div className="sombra">
+                    <div className="titulo">
+                        <h1>Ciarama Fazendas News</h1>
+                    </div>
                 </div>
                 <div className="center">
-                    <div className="data">
+                    {/* <div className="data">
                         <p>Data: {dataAtual} </p>
-                    </div>
+                    </div> */}
                     <div className="quadro-de-avisos">
-                        <h2>Mural de avisos</h2>
-                        <div className="avisos">
-                            <Avisos />
-                            <Avisos />
-                            <Avisos />
-                            <Avisos />
-                            <Avisos />
+                        <div className="box">
+                            <div className="avisos">
+                                <Avisos />
+                                <Avisos />
+                                <Avisos />
+                                <Avisos />
+                                <Avisos />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <Rodape />
-        </>
+        </div>
     );
 }
 
